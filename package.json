@@ -12,6 +12,7 @@
     "vite": "^5.1.4"
   },
   "dependencies": {
-    "@clerk/clerk-js": "^4.70.1"
+    "@clerk/clerk-js": "^4.70.1",
+    "@clerk/localizations": "^1.28.2"
   }
 }

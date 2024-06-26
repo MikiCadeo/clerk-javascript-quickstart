@@ -6,8 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clerk + JavaScript Quickstart</title>
   </head>
+  <style>
+    body {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .actions {
+      gap: 12px;
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
   <body>
     <div id="app"></div>
+    <div class="actions">
+      Update language using:
+      <button id="i18n-load">load()</button>
+      <button id="i18n-update-props">__unstable__updateProps()</button>
+      Remount and update language using:
+      <button id="i18n-load-remount">load()</button>
+      <button id="i18n-update-props-remount">__unstable__updateProps()</button>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
